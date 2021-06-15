@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(198, 232, 255);
+    height: 100px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  nav img {
+      height: 50px;
+      width: 50px;
+  }
+  a {
+   color: rgb(0, 39, 58);
+  }
+  a:link {
+      text-decoration: none;
+  }
