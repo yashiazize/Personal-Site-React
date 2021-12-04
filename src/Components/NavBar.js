@@ -3,7 +3,7 @@ import "./NavBar.css"
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className="NavBarContainer">
             <NavLink to="/"></NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/projects">Projects</NavLink>

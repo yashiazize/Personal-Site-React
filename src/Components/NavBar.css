@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
-nav {
+.NavBarContainer {
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(198, 232, 255);
-    height: 100px;
     align-items: center;
+    padding-top: 5%;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 80vh;
+    width: 18vh;
+    background-color: #9b00a8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    font-family: 'Architects Daughter', cursive;
-  }
-  nav img {
-      height: 50px;
-      width: 50px;
-  }
-  a {
-   color: rgb(0, 39, 58);
-  }
-  a:link {
-      text-decoration: none;
-  }
+    box-shadow: 5px 5px 5px #e6209e;
+    font-weight: bold;
+    margin-bottom: none;
+}
+
+
+/* .NavBarContainer img {
+    height: 60px;
+    width: 150px;
+} */
+
+.NavBarContainer a {
+    color: rgb(253, 253, 252);
+}
+
+.NavBarContainer a:link {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+}
