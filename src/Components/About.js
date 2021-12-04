@@ -3,7 +3,7 @@ import myPhoto from "../Components/Assets/myphoto-react.png"
 const About = () => {
     return (
         <section className="aboutContainer">
-             <img id="myphoto" src={myPhoto}/> 
+             {/* <img id="myphoto" src={myPhoto}/>  */}
             <div>
              <p>
               Currently learning to code through Pursuit, an intensive 12 -month

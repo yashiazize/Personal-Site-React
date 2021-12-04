@@ -3,17 +3,13 @@
 .NavBarContainer {
     display: flex;
     align-items: center;
-    padding-top: 5%;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: column;
     height: 80vh;
-    width: 18vh;
+    width: 15vh;
     background-color: #9b00a8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-    box-shadow: 5px 5px 5px #e6209e;
     font-weight: bold;
-    margin-bottom: none;
 }
 
 
